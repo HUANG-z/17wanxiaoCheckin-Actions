@@ -29,7 +29,7 @@
 
 本项目也就不起作用了，可以试试打一次卡然后再进入看有无自动填充信息。
 
-```python
+```python 
 def get_post_json(self, token):
     jsons = {"businessType": "epmpics",
     "jsonData": {"templateid": "pneumonia", "token": token},
@@ -72,7 +72,7 @@ def get_post_json(self, token):
 
 2. 点击右上角的 `fork`，`fork` 本项目到自己仓库中
 
-   
+    
 
    ![](https://cdn.jsdelivr.net/gh/ReaJason/17wanxiaoCheckin-Actions/Pictures/click_fork.png)
 
